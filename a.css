@@ -209,7 +209,7 @@ transform: scale(0.95);
     height: 190px;
     overflow: hidden;
 }
-.product-card:hover .media-box img {
+.product-card:active .media-box img {
     position: absolute;
     width: 35%;
     height: auto;
@@ -233,7 +233,7 @@ transform: scale(0.95);
     z-index: 1;
 }
 
-.product-card:hover .hover-video {
+.product-card:active .hover-video {
     opacity: 1;
 }
 
@@ -565,4 +565,5 @@ footer {
         min-width: 300px;
         margin-bottom: 30px;
     }
+
 }
